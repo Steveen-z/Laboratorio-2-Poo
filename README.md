@@ -1,18 +1,25 @@
-# Laboratorio-2-Poo
+Ejercicio 1
+npm install --save-dev @types/node npm install 
+--save-dev @types/node tsx
+npx tsx main.ts
 
-Para el ejericio 1 utilizar:
-npm install --save-dev @types/node
-npm install --save-dev @types/node tsx 
-
-y ya con eso instalado y en la carpeta del ejercicio correrlo con: npx tsx main.ts
-
-Para el ejercicio 2
-
+ejercicio 2 
 El codigo utiliza las instancias de node.
 npm install --save-dev @types/node
 
 npm install --save-dev typescript
 
+npm install --save-dev ts-node
+
 npm init -y
 
 tsc --init
+
+Ejecutación
+ts-node main.ts
+
+Ejercicio 3
+npm init -y
+npm install --save-dev typescript ts-node @types/node
+tsc --init
+npx ts-node main.ts
